@@ -7,7 +7,7 @@ import {
 } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
-import { login, register } from "./actions";
+import { login } from "./actions";
 
 type LoginSearchParams = {
   error?: string | string[];
